@@ -40,3 +40,16 @@
 
 ![image](https://github.com/user-attachments/assets/d3b437f6-7a33-423d-93e2-22df3fcd414e)
 
+==> 밝은 환경 --> 스탠드 불이 안 켜짐
+빨간줄을 5v에 꼽고, 검정줄은 GND에 꼽고, 노란줄은 A0에 꼽음
+
+![image](https://github.com/user-attachments/assets/c8f02dea-ccf0-41be-8500-4653b1361efb)
+
+==> 어두운 환경 --> 스탠드가 밝기가 높아짐
+
+
+![20241128_151310](https://github.com/user-attachments/assets/9b9b1d5f-0071-429d-a8be-4aecada02b1c)
+
+
+![20241128_151314](https://github.com/user-attachments/assets/88c7178c-37e3-4eef-bcbe-805b1685eb10)
+
