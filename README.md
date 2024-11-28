@@ -56,8 +56,7 @@ LED전구를 활용하여 밝은 곳에서의 LED의 밝기 조절
 LED전구를 활용하여 어두운 곳에서의 LED의 밝기 조절
 
 
-LED전구 자동 밝기 조절 코드
-
+-LED전구 자동 밝기 조절 코드
 
 #include <Adafruit_NeoPixel.h>
 #ifdef __AVR__
