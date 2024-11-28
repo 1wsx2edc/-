@@ -31,4 +31,12 @@
 - 보고서를 작성한다.
 
 (2) 추진체계
+
+
 ![image](https://github.com/user-attachments/assets/a9a261bd-d69b-4cc6-ac95-39fee2fd51e1)
+
+
+7.진행과정 (전계민)
+
+![image](https://github.com/user-attachments/assets/d3b437f6-7a33-423d-93e2-22df3fcd414e)
+
