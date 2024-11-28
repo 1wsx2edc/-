@@ -29,3 +29,6 @@
 - 상세설계를 하고 제품을 제작한다
 - 특성실험을 실시한다. 
 - 보고서를 작성한다.
+
+(2) 추진체계
+![image](https://github.com/user-attachments/assets/a9a261bd-d69b-4cc6-ac95-39fee2fd51e1)
