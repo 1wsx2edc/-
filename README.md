@@ -49,7 +49,13 @@
 
 
 ![20241128_151310](https://github.com/user-attachments/assets/9b9b1d5f-0071-429d-a8be-4aecada02b1c)
+LED전구를 활용하여 밝은 곳에서의 LED의 밝기 조절
 
 
 ![20241128_151314](https://github.com/user-attachments/assets/88c7178c-37e3-4eef-bcbe-805b1685eb10)
+LED전구를 활용하여 어두운 곳에서의 LED의 밝기 조절
+
+
+LED전구 자동 밝기 조절 코드
+
 
