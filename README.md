@@ -122,6 +122,23 @@ void loop()
  }  
 
 
+ **제품 완성**
+
+
+![image](https://github.com/user-attachments/assets/c8ca63e0-58ea-4da7-a0fa-12a56a330667)
+
+주변 밝기가 어두울때의 스탠드 밝기
+
+
+
+
+![불킨거](https://github.com/user-attachments/assets/09473f88-1978-4d01-acd2-e9db48addd9f)
+
+주변 밝기가 밝을때의 스탠드 밝기
+
+
+
+
 
 **발표 대본 추가**
 
@@ -182,5 +199,6 @@ void loop()
 작업 효율성 향상: 최적화된 조명 환경으로 집중력과 생산성이 증가합니다.+
 에너지 절약: 스마트한 조명 사용으로 전력 소비를 줄입니다.
 이상으로 발표를 마치겠습니다. 감사합니다. 질문 있으시면 받겠습니다.
+
 
 
