@@ -60,14 +60,14 @@ LED전구를 활용하여 어두운 곳에서의 LED의 밝기 조절
 
 -LED전구 자동 밝기 조절 코드
 
-#include <Adafruit_NeoPixel.h>  
-#ifdef __AVR__  
- #include <avr/power.h> // Required for 16 MHz Adafruit Trinket  
-#endif  
-#define LED 13 // LED 핀 정의  
-#define PIN        7  
-#define NUMPIXELS 8  
-#define LIGHT_SENSOR_PIN A0 // 조도 센서 핀 정의  
+#include <Adafruit_NeoPixel.h>   
+#ifdef __AVR__   
+#include <avr/power.h> // Required for 16 MHz Adafruit Trinket   
+#endif   
+#define LED 13 // LED 핀 정의   
+#define PIN        7   
+#define NUMPIXELS 8   
+#define LIGHT_SENSOR_PIN A0 // 조도 센서 핀 정의   
 
 // 센서 값의 범위 설정 (최대값과 최소값)  
 #define MAX_SENSOR_VAL 1023 // 아날로그 센서의 최대 값 (1023)  
@@ -75,13 +75,15 @@ LED전구를 활용하여 어두운 곳에서의 LED의 밝기 조절
 
 Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);  
 
-void setup() {  
+void setup() 
+{  
     Serial.begin(115200); // 시리얼 통신 시작  
     pinMode(LED, OUTPUT); // LED 핀을 출력 모드로 설정  
     pixels.begin();  
 }  
   
-void loop() {  
+void loop() 
+{  
     // 아날로그 센서 값 읽기 (0 ~ 1023 범위)  
     int sensorValue = analogRead(LIGHT_SENSOR_PIN);  
   
@@ -101,22 +103,22 @@ void loop() {
       
 }  
   
-void control_brightness(int light)  
-{  
-  for(int i=0; i<NUMPIXELS; i++)  
-  {   
-    pixels.setPixelColor(i, pixels.Color(light, light, light));  
-    pixels.show();     
-  }  
-}  
+ void control_brightness(int light)  
+ {  
+   for(int i=0; i<NUMPIXELS; i++)   
+   {   
+     pixels.setPixelColor(i, pixels.Color(light, light, light));  
+     pixels.show();        
+   }   
+ }  
   
-void turn0ff()  
-{  
+ void turn0ff()  
+ {  
   for(int i=0; i<NUMPIXELS; i++)  
-  {   
+   {   
     pixels.setPixelColor(i, pixels.Color(0, 0, 0));  
-    pixels.show();     
-  }  
-}  
+    pixels.show();       
+   }  
+ }  
   
 
